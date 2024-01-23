@@ -1,0 +1,30 @@
+:root {
+    --zoom-primary: rgba(0, 0, 0, 1);
+    --zomm-light-dark: rgba(34, 34, 34, 1);
+    --zomm-lighter: rgba(255, 255, 255, 1);
+    --zomm-secondary:rgba(74, 74, 74, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--zoom-primary);
+    color: var(--zomm-lighter);
+}
+
+.right-menu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 15px;
+}
+.right-button{
+    margin-right: 1rem;
+    background-color: var(--zomm-secondary);
+    padding: 0.3rem 0.5rem;
+    border-radius: 10px;
+}
